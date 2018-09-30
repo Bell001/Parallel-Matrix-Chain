@@ -10,9 +10,13 @@ int main(int argc, char *argv[]){
 
 	start = clock();
 	MPI_Init(&argc, &argv);
-        printf("Enter dimension of matrix:  ");
-        scanf("%d %d %d %d %d",&d1,&d2,&d3,&d4,&d5);
-
+        //printf("Enter dimension of matrix:  ");
+        //scanf("%d %d %d %d %d",&d1,&d2,&d3,&d4,&d5);
+        d1 = 20;
+        d2 = 100;
+        d3 = 100;
+        d4 = 50;
+        d5 = 70;
 	int n = 5;
 	int p[] = {d1,d2,d3,d4,d5};
 	int m[5][5] = {0};
